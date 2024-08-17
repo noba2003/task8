@@ -24,6 +24,7 @@ class Employee {
 
     fun setSalary(salary: Double, idManger: String): String {
         if (idManger == "ahmed") {
+            this.salary=salary
             if (this.hireDate > 5) {
                 this.salary += 1000.0
             }
